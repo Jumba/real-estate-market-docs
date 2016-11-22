@@ -209,7 +209,7 @@
      <rect>
       <x>20</x>
       <y>50</y>
-      <width>211</width>
+      <width>241</width>
       <height>16</height>
      </rect>
     </property>
@@ -221,7 +221,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Overview ongoing investings</string>
+     <string>Overview ongoing investments</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -452,7 +452,7 @@
      <rect>
       <x>520</x>
       <y>260</y>
-      <width>111</width>
+      <width>151</width>
       <height>16</height>
      </rect>
     </property>
@@ -549,7 +549,7 @@
      <rect>
       <x>520</x>
       <y>130</y>
-      <width>121</width>
+      <width>171</width>
       <height>16</height>
      </rect>
     </property>
@@ -655,7 +655,7 @@
      <x>0</x>
      <y>0</y>
      <width>735</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>
