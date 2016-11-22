@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>919</width>
-    <height>537</height>
+    <height>543</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,7 +30,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Fund (€)</string>
+     <string>Amount (€)</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_3">
@@ -78,12 +78,12 @@
       <x>670</x>
       <y>110</y>
       <width>131</width>
-      <height>16</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -553,7 +553,7 @@
      <x>0</x>
      <y>0</y>
      <width>919</width>
-     <height>21</height>
+     <height>27</height>
     </rect>
    </property>
   </widget>
