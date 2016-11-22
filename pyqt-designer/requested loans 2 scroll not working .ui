@@ -203,14 +203,14 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>730</y>
+      <x>20</x>
+      <y>720</y>
       <width>111</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Decline Request</string>
+     <string>Reject</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -315,14 +315,14 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>740</y>
+      <x>280</x>
+      <y>720</y>
       <width>111</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Accept Request</string>
+     <string>Accept</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_13">
@@ -693,6 +693,19 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="text">
      <string>Property Address</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>720</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Go Back</string>
     </property>
    </widget>
   </widget>

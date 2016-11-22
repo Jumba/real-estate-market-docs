@@ -19,7 +19,7 @@
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>281</width>
+      <width>401</width>
       <height>41</height>
      </rect>
     </property>
@@ -31,7 +31,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Open Loan Requests</string>
+     <string>Pending Loan Requests</string>
     </property>
    </widget>
    <widget class="QTableWidget" name="tableWidget">
