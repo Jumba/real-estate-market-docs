@@ -14,11 +14,11 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="pending_loan_requests_label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>20</y>
+      <x>10</x>
+      <y>0</y>
       <width>401</width>
       <height>41</height>
      </rect>
@@ -34,14 +34,14 @@
      <string>Pending Loan Requests</string>
     </property>
    </widget>
-   <widget class="QTableWidget" name="tableWidget">
+   <widget class="QTableWidget" name="loan_requests_table">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>130</y>
+      <x>10</x>
+      <y>60</y>
       <width>571</width>
       <height>211</height>
      </rect>
@@ -60,37 +60,57 @@
     </attribute>
     <row>
      <property name="text">
-      <string>1</string>
+      <string> </string>
      </property>
     </row>
     <row>
      <property name="text">
-      <string>2</string>
+      <string> </string>
      </property>
     </row>
     <row>
      <property name="text">
-      <string>3</string>
+      <string> </string>
      </property>
     </row>
     <row>
      <property name="text">
-      <string>4</string>
+      <string> </string>
      </property>
     </row>
     <row>
      <property name="text">
-      <string>5</string>
+      <string> </string>
      </property>
     </row>
     <row>
      <property name="text">
-      <string>6</string>
+      <string> </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> </string>
      </property>
     </row>
     <column>
      <property name="text">
-      <string>Property Adress</string>
+      <string>Property Address</string>
      </property>
      <property name="font">
       <font>
@@ -110,33 +130,35 @@
     </column>
     <column>
      <property name="text">
-      <string>Mortgage Type</string>
+      <string>House Price</string>
      </property>
     </column>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>100</y>
-      <width>141</width>
-      <height>17</height>
+      <x>490</x>
+      <y>300</y>
+      <width>121</width>
+      <height>27</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
-     </font>
-    </property>
     <property name="text">
-     <string>Loan Request</string>
+     <string>View loan request</string>
     </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>661</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
