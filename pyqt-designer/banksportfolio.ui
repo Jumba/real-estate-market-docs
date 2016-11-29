@@ -218,7 +218,7 @@
     </column>
     <column>
      <property name="text">
-      <string>Amount Invested</string>
+      <string>Amount Invested (€)</string>
      </property>
      <property name="font">
       <font>
@@ -229,7 +229,7 @@
     </column>
     <column>
      <property name="text">
-      <string>Interest</string>
+      <string>Interest (%)</string>
      </property>
      <property name="font">
       <font>
@@ -240,7 +240,7 @@
     </column>
     <column>
      <property name="text">
-      <string>Duration</string>
+      <string>Duration (month)</string>
      </property>
      <property name="font">
       <font>
