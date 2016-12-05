@@ -298,8 +298,9 @@
     <edge id="e4" source="n3" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-20.0" tx="40.0" ty="0.0">
-            <y:Point x="336.4690476190476" y="90.0"/>
+          <y:Path sx="0.0" sy="-20.0" tx="3.9581100323622707" ty="-40.830291262135916">
+            <y:Point x="336.4690476190476" y="49.90161812297734"/>
+            <y:Point x="193.1425760517797" y="49.169708737864084"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
